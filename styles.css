@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.button {
+    border: 0px solid skyblue;
+    font-size: 20px;
+    color: white;
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 50px;
+    border: 0px solid lightgrey;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    display: inline-block;
+    border: 3px solid skyblue;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: skyblue;
+}
+
+.circle.active {
+    background-color: skyblue;
+    color: white;
+    border-color: skyblue;
+}
